@@ -7,4 +7,5 @@ public interface BancoServiceIF extends Remote {
 
     double saldo(String conta) throws RemoteException;
     int quantidadeContas() throws RemoteException;
+    void adicionarConta(String id, Double saldoConta) throws RemoteException;
 }
